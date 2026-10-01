@@ -9,9 +9,9 @@ fi
 CONTAINER="$1"
 PROCESS="$2"
 
-# total of 4 configurations. 
+# total of 5 configurations. 
 # Each number associates with a different configuration type
-CONFIG=$(( RANDOM % 4 + 1 ))
+CONFIG=$(( RANDOM % 5 + 1 ))
 
 echo "Recycling $CONTAINER"
 echo "Selected configuration: $CONFIG"
